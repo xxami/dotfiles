@@ -1,0 +1,47 @@
+
+URxvt*.transparent: true
+URxvt*.shading: 6
+URxvt.scrollBar: false
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/chromium-browser
+URxvt.matcher.button: 1
+URxvt.font: xft:Terminus-9
+URxvt.internalBorder: 8
+
+! special
+*.foreground:   #f03ea2
+*.background:   #000000
+*.cursorColor:  #f03ea2
+
+! black
+*.color0:       #000000
+*.color8:       #700330
+
+! red
+*.color1:       #9f0044
+*.color9:       #740045
+
+! green
+*.color2:       #a3015c
+*.color10:      #b20379
+
+! yellow
+*.color3:       #d4217f
+*.color11:      #e22466
+
+! blue
+*.color4:       #e83bd2
+*.color12:      #dd48c2
+
+! magenta
+*.color5:       #e54391
+*.color13:      #e44879
+
+! cyan
+*.color6:       #f879de
+*.color14:      #ff71f6
+
+! white
+*.color7:       #fb8cdb
+*.color15:      #fd8fe8
+

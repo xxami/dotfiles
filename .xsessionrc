@@ -1,0 +1,10 @@
+
+# x config
+xset r rate 250 50 # fast key repeat
+setxkbmap -option caps:none # disable capslock toggle
+xmodmap -e "keycode 66 = Escape NoSymbol Escape" # remap capslock to escape
+xsetroot -cursor_name left_ptr # removed bad x11 default cursor
+
+# wm init
+sxhkd &
+exec bspwm
